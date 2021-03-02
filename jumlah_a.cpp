@@ -3,13 +3,17 @@ using namespace std;
 
 int main()
 {
-	int x= 5;
-	int y= 5;
+	int x;
+	int y;
 
 	cout<<" Penjumlahn x dan y "<<endl;
-	cout<<"y = "<<x<<endl;
-	cout<<"x = "<<y<<endl;
+
+	cout<<"x = "<<endl;
+	cin>>x;
+	cout<<"y = "<<endl;
+	cin>>y;
 	cout"\n";
 
-	cout<<"Hasil x + y = "<<x+y<<;
+	cout<<"Hasil Jumlah = "<<x+y<<;
+	cout<<"Hasil Pengurangan = "<<x-y<<;
 }
